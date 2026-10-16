@@ -1,0 +1,183 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : ""
+      }
+    ]
+  },
+  "identifier" : "E2B7A814",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "1001",
+      "localizations" : [
+        {
+          "description" : "5 AI festive photo transformations",
+          "displayName" : "5 Holiday Credits",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.christmasai.studio.credits5",
+      "referenceName" : "5 Credits Pack",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "5.99",
+      "familyShareable" : false,
+      "internalID" : "1002",
+      "localizations" : [
+        {
+          "description" : "15 AI festive photo transformations (Most Popular)",
+          "displayName" : "15 Holiday Credits",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.christmasai.studio.credits15",
+      "referenceName" : "15 Credits Pack",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "1003",
+      "localizations" : [
+        {
+          "description" : "30 AI festive photo transformations (Best Value)",
+          "displayName" : "30 Holiday Credits",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.christmasai.studio.credits30",
+      "referenceName" : "30 Credits Pack",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "210001",
+      "localizations" : [
+        {
+          "description" : "Christmas Pro Access",
+          "displayName" : "Christmas Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "Christmas Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "2001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited HD generation, 4K cards, fast queue & all styles",
+              "displayName" : "Christmas Pro Weekly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.christmasai.studio.pro.weekly",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Weekly Pro",
+          "subscriptionGroupID" : "210001",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "19.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "2002",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Full holiday season pass through Jan 2027 with VIP generation",
+              "displayName" : "Holiday 2026 Season Pass",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.christmasai.studio.pro.holiday2026",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Holiday 2026 Pass",
+          "subscriptionGroupID" : "210001",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

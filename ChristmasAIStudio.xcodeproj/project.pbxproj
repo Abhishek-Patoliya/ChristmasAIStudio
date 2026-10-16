@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05038B597DB6369675FAFDCC /* CreditBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921D840ADA63A0E2B6D825E7 /* CreditBadgeView.swift */; };
+		1124546ACAAC80C3E5D4B6D9 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7CF1E82A71DEE1A5668D8 /* StoreKitManager.swift */; };
+		160DC942CC19077CA21153BE /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001545D692BCE96C456EECEF /* MainTabView.swift */; };
+		1660668E18D68A0F2C8B8B4B /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A342F73806F7B92CCC56BDA1 /* PhotoLibraryService.swift */; };
+		16EC1E96C05BC57014D16936 /* ChristmasAIStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E357F72E7BE1E9A1AD9F3A /* ChristmasAIStudioApp.swift */; };
+		196A505525A0F084A3D23A7A /* PhotoPickerAndPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA22FC5F2646A0F7C841EDE4 /* PhotoPickerAndPreviewView.swift */; };
+		249111A9D4B1FFC76D51B90F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2911BF9B19BFBD37E266A /* SettingsView.swift */; };
+		280CE8D261C04A1E20EA9064 /* SnowfallEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1AB8945DB745A2631DED77 /* SnowfallEffectView.swift */; };
+		295D318B939B528F83B1A9F5 /* GenerationResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9669A6C9C534461D99C64822 /* GenerationResultView.swift */; };
+		30E2C995B4773342BEBDE7FF /* BeforeAfterComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D974483960062F1CD77515 /* BeforeAfterComparisonView.swift */; };
+		31A29E9DC96E29B85D525A42 /* FestiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183579FD4896C60CCDE60A2B /* FestiveButton.swift */; };
+		3B77232E5A8270A59D6762EC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C43BA6A88F5F2259A54F5E /* Constants.swift */; };
+		3B8F8CF19D70D53AEA32085E /* StyleSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DF7AE4C4B023940F992167 /* StyleSelectionView.swift */; };
+		455408B85E868BE5DFEF8B90 /* GenerationProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B183006F30AB39AC50D2974 /* GenerationProgressView.swift */; };
+		49441A69830360981C8DB8A3 /* StoreKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC9FEBD0270754E4B39D6FB /* StoreKitTests.swift */; };
+		49E597BABE36A62872404B0E /* SavedCreationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131A5C26E60761CCCE216305 /* SavedCreationsViewModel.swift */; };
+		4A207691B35DA1EE2F6D585D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64CDCFD774BC7F6EEB4AFC6 /* Theme.swift */; };
+		51541FF72EBA32E4A55C0EB4 /* StorePaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78934C630ABFE7D0590F4212 /* StorePaywallView.swift */; };
+		52DFDA8BA8FDD747D9D06532 /* ImageGenerationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFC96B783FCB7718A8EB39 /* ImageGenerationService.swift */; };
+		53B111198E423D4FB4815A6D /* BackendAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310F670B9743A7DE2823C3BE /* BackendAPIService.swift */; };
+		53B64639109C1F07E4619E3C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19B1B36E0C6ED2C23DFF5D4 /* OnboardingView.swift */; };
+		5853FF6F548A7C2FAAED63D4 /* StylePromptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACAC2D06D88CE6E7AF570F6 /* StylePromptTests.swift */; };
+		66A1C1CCA3E3EB971D5EF597 /* ImageResizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5839E47EFE7DB2FF0AE9781B /* ImageResizer.swift */; };
+		68AAE75D88B11B2693121189 /* GreetingCardEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE0ACCC1878B522896B0634 /* GreetingCardEditorView.swift */; };
+		749BF8EA85449A2F0E8980DA /* CreditBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B0DFC6068714045E2819D7 /* CreditBalance.swift */; };
+		89D8DDA5AC0E69205D842281 /* GreetingCardConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D28B0FEFF83378FD38D754 /* GreetingCardConfig.swift */; };
+		90015DD75BCF0ED78E08BC21 /* MockImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B27E655989B26E826BC24 /* MockImageGenerator.swift */; };
+		959D96A1A6B11D33B68EE66D /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF351B54D1BC822A57CAD656 /* StorageService.swift */; };
+		965AA6812DF364B50FEE7FB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0461701F8131E33B136D3D58 /* Assets.xcassets */; };
+		A158702EF18B78559863DBEB /* GreetingCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F2B05F88F0E780C56B81E8 /* GreetingCardViewModel.swift */; };
+		AD202615A36C84C776BC5DE3 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF92D8E9F57C984BD21C37F7 /* AppState.swift */; };
+		ADB4F44D81D862B0D9AC60B1 /* GenerationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C3EC40597B5F5268126317 /* GenerationViewModel.swift */; };
+		B2724A1F92E2A513F21890F2 /* GenerationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEE76B93C55C63C70E82D6 /* GenerationRequest.swift */; };
+		B413712DF71B025B67B917C4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FA9601DE754B0E2770786B /* HomeViewModel.swift */; };
+		BEC8A7DC84923E8EC14C7BB8 /* SavedCreationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068B5CECD35738173F5DF0D /* SavedCreationsView.swift */; };
+		CD8DA5E96AC5D5C5B5D789E5 /* FestiveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610EC7E3733E831A757386A /* FestiveCard.swift */; };
+		CF52035CD3B537015862ED9C /* BeforeAfterSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AB5558635338BB404039EF /* BeforeAfterSlider.swift */; };
+		D3391EA9A366A2012E0C60AA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE257DC5EAA24D2425CFB10 /* HomeView.swift */; };
+		DBCA753702BCE31F296ADA58 /* StyleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01885964E3F76B00BC8E5CA7 /* StyleCardView.swift */; };
+		EB1D88C5BF5727705F2B72D8 /* ImageResizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D9985DF222A52ED6CFE3F /* ImageResizerTests.swift */; };
+		EC557B65B3CE43FFB59E714C /* ChristmasAIStudio.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 64DBFFF168526CF2F2706957 /* ChristmasAIStudio.storekit */; };
+		F1E57C2B815D10D520361895 /* ChristmasStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CE3CB8840F90FA2401224 /* ChristmasStyle.swift */; };
+		F56766B674EF361EBE6EA648 /* GeneratedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A18DD0E462352EC9C3A0B07 /* GeneratedImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62DFCED05A9BB11813B71547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 446AD157CB45C921B1CA962A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64FD464D8F1BAD67E7DE3B9A;
+			remoteInfo = ChristmasAIStudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001545D692BCE96C456EECEF /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		0068B5CECD35738173F5DF0D /* SavedCreationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCreationsView.swift; sourceTree = "<group>"; };
+		01885964E3F76B00BC8E5CA7 /* StyleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleCardView.swift; sourceTree = "<group>"; };
+		0461701F8131E33B136D3D58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DC2911BF9B19BFBD37E266A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		11C43BA6A88F5F2259A54F5E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		131A5C26E60761CCCE216305 /* SavedCreationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCreationsViewModel.swift; sourceTree = "<group>"; };
+		15B0DFC6068714045E2819D7 /* CreditBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditBalance.swift; sourceTree = "<group>"; };
+		183579FD4896C60CCDE60A2B /* FestiveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestiveButton.swift; sourceTree = "<group>"; };
+		1EE0ACCC1878B522896B0634 /* GreetingCardEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingCardEditorView.swift; sourceTree = "<group>"; };
+		211CE3CB8840F90FA2401224 /* ChristmasStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasStyle.swift; sourceTree = "<group>"; };
+		2AE257DC5EAA24D2425CFB10 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		310F670B9743A7DE2823C3BE /* BackendAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendAPIService.swift; sourceTree = "<group>"; };
+		326B099882FCA09088B8E7AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		368AE811C492DCD9827E6875 /* ChristmasAIStudio.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ChristmasAIStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACAC2D06D88CE6E7AF570F6 /* StylePromptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylePromptTests.swift; sourceTree = "<group>"; };
+		45A7CF1E82A71DEE1A5668D8 /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		5610EC7E3733E831A757386A /* FestiveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestiveCard.swift; sourceTree = "<group>"; };
+		5839E47EFE7DB2FF0AE9781B /* ImageResizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizer.swift; sourceTree = "<group>"; };
+		64DBFFF168526CF2F2706957 /* ChristmasAIStudio.storekit */ = {isa = PBXFileReference; path = ChristmasAIStudio.storekit; sourceTree = "<group>"; };
+		66AB5558635338BB404039EF /* BeforeAfterSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeAfterSlider.swift; sourceTree = "<group>"; };
+		6A18DD0E462352EC9C3A0B07 /* GeneratedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedImage.swift; sourceTree = "<group>"; };
+		78934C630ABFE7D0590F4212 /* StorePaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorePaywallView.swift; sourceTree = "<group>"; };
+		8B183006F30AB39AC50D2974 /* GenerationProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationProgressView.swift; sourceTree = "<group>"; };
+		921D840ADA63A0E2B6D825E7 /* CreditBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditBadgeView.swift; sourceTree = "<group>"; };
+		9669A6C9C534461D99C64822 /* GenerationResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationResultView.swift; sourceTree = "<group>"; };
+		9DC9FEBD0270754E4B39D6FB /* StoreKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitTests.swift; sourceTree = "<group>"; };
+		A19B1B36E0C6ED2C23DFF5D4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A27B27E655989B26E826BC24 /* MockImageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockImageGenerator.swift; sourceTree = "<group>"; };
+		A2D974483960062F1CD77515 /* BeforeAfterComparisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeAfterComparisonView.swift; sourceTree = "<group>"; };
+		A342F73806F7B92CCC56BDA1 /* PhotoLibraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryService.swift; sourceTree = "<group>"; };
+		A4DF7AE4C4B023940F992167 /* StyleSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSelectionView.swift; sourceTree = "<group>"; };
+		AAAFC96B783FCB7718A8EB39 /* ImageGenerationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGenerationService.swift; sourceTree = "<group>"; };
+		BBCEE76B93C55C63C70E82D6 /* GenerationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationRequest.swift; sourceTree = "<group>"; };
+		BE1AB8945DB745A2631DED77 /* SnowfallEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowfallEffectView.swift; sourceTree = "<group>"; };
+		C5C3EC40597B5F5268126317 /* GenerationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationViewModel.swift; sourceTree = "<group>"; };
+		C64CDCFD774BC7F6EEB4AFC6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CF351B54D1BC822A57CAD656 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		CF92D8E9F57C984BD21C37F7 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		D1FA9601DE754B0E2770786B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D4D28B0FEFF83378FD38D754 /* GreetingCardConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingCardConfig.swift; sourceTree = "<group>"; };
+		DA0C6E9EA0AEA20A75C967AC /* ChristmasAIStudioTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ChristmasAIStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0D9985DF222A52ED6CFE3F /* ImageResizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizerTests.swift; sourceTree = "<group>"; };
+		DA22FC5F2646A0F7C841EDE4 /* PhotoPickerAndPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerAndPreviewView.swift; sourceTree = "<group>"; };
+		E6F2B05F88F0E780C56B81E8 /* GreetingCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingCardViewModel.swift; sourceTree = "<group>"; };
+		F2E357F72E7BE1E9A1AD9F3A /* ChristmasAIStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasAIStudioApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		000B2F2A91C0FE42F49E4A58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				211CE3CB8840F90FA2401224 /* ChristmasStyle.swift */,
+				15B0DFC6068714045E2819D7 /* CreditBalance.swift */,
+				6A18DD0E462352EC9C3A0B07 /* GeneratedImage.swift */,
+				BBCEE76B93C55C63C70E82D6 /* GenerationRequest.swift */,
+				D4D28B0FEFF83378FD38D754 /* GreetingCardConfig.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		068431BAF349C75B97483BD0 = {
+			isa = PBXGroup;
+			children = (
+				682F92C86C0B24C64767F604 /* ChristmasAIStudio */,
+				32FAE26DCD6940883A8CD9D5 /* ChristmasAIStudioTests */,
+				EDF06F558D318A5AC0491AB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D32C1117167253A176606F8 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				78934C630ABFE7D0590F4212 /* StorePaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		2E776A7AF46E126EE1F5D57E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2AE257DC5EAA24D2425CFB10 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		32FAE26DCD6940883A8CD9D5 /* ChristmasAIStudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA0D9985DF222A52ED6CFE3F /* ImageResizerTests.swift */,
+				9DC9FEBD0270754E4B39D6FB /* StoreKitTests.swift */,
+				3ACAC2D06D88CE6E7AF570F6 /* StylePromptTests.swift */,
+			);
+			path = ChristmasAIStudioTests;
+			sourceTree = "<group>";
+		};
+		48FA5FF74389DD1A90927879 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF7AE4C4B023940F992167 /* StyleSelectionView.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		4EFBED7DC1AF553A2B445F91 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C5C3EC40597B5F5268126317 /* GenerationViewModel.swift */,
+				E6F2B05F88F0E780C56B81E8 /* GreetingCardViewModel.swift */,
+				D1FA9601DE754B0E2770786B /* HomeViewModel.swift */,
+				131A5C26E60761CCCE216305 /* SavedCreationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		511C6E3CEDAE3EBDEF9BC298 /* Generation */ = {
+			isa = PBXGroup;
+			children = (
+				A2D974483960062F1CD77515 /* BeforeAfterComparisonView.swift */,
+				8B183006F30AB39AC50D2974 /* GenerationProgressView.swift */,
+				9669A6C9C534461D99C64822 /* GenerationResultView.swift */,
+				DA22FC5F2646A0F7C841EDE4 /* PhotoPickerAndPreviewView.swift */,
+			);
+			path = Generation;
+			sourceTree = "<group>";
+		};
+		53E872CCE9542CD69F508CF6 /* GreetingCard */ = {
+			isa = PBXGroup;
+			children = (
+				1EE0ACCC1878B522896B0634 /* GreetingCardEditorView.swift */,
+			);
+			path = GreetingCard;
+			sourceTree = "<group>";
+		};
+		682F92C86C0B24C64767F604 /* ChristmasAIStudio */ = {
+			isa = PBXGroup;
+			children = (
+				C491A0A5480EC6CB28315ECD /* App */,
+				9F89A1A307D9A763EE1C6A32 /* Components */,
+				000B2F2A91C0FE42F49E4A58 /* Models */,
+				FF658D453EE4F0ABDEFEEBB2 /* Resources */,
+				C648070BF3EB79F6F1294D21 /* Services */,
+				DDFC26B23E2D4A8140C6B78F /* Utilities */,
+				4EFBED7DC1AF553A2B445F91 /* ViewModels */,
+				7624D75E532B20D464551B75 /* Views */,
+			);
+			path = ChristmasAIStudio;
+			sourceTree = "<group>";
+		};
+		6CC0955B6B2A98C5AA97949B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0DC2911BF9B19BFBD37E266A /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7624D75E532B20D464551B75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				001545D692BCE96C456EECEF /* MainTabView.swift */,
+				511C6E3CEDAE3EBDEF9BC298 /* Generation */,
+				53E872CCE9542CD69F508CF6 /* GreetingCard */,
+				2E776A7AF46E126EE1F5D57E /* Home */,
+				ED33A56E2AB5186A605DE6A3 /* Onboarding */,
+				2D32C1117167253A176606F8 /* Paywall */,
+				EB4B036B1168A16BFF75D294 /* SavedCreations */,
+				6CC0955B6B2A98C5AA97949B /* Settings */,
+				48FA5FF74389DD1A90927879 /* Styles */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F89A1A307D9A763EE1C6A32 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				66AB5558635338BB404039EF /* BeforeAfterSlider.swift */,
+				921D840ADA63A0E2B6D825E7 /* CreditBadgeView.swift */,
+				183579FD4896C60CCDE60A2B /* FestiveButton.swift */,
+				5610EC7E3733E831A757386A /* FestiveCard.swift */,
+				BE1AB8945DB745A2631DED77 /* SnowfallEffectView.swift */,
+				01885964E3F76B00BC8E5CA7 /* StyleCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C491A0A5480EC6CB28315ECD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CF92D8E9F57C984BD21C37F7 /* AppState.swift */,
+				F2E357F72E7BE1E9A1AD9F3A /* ChristmasAIStudioApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C648070BF3EB79F6F1294D21 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				310F670B9743A7DE2823C3BE /* BackendAPIService.swift */,
+				AAAFC96B783FCB7718A8EB39 /* ImageGenerationService.swift */,
+				A27B27E655989B26E826BC24 /* MockImageGenerator.swift */,
+				A342F73806F7B92CCC56BDA1 /* PhotoLibraryService.swift */,
+				CF351B54D1BC822A57CAD656 /* StorageService.swift */,
+				45A7CF1E82A71DEE1A5668D8 /* StoreKitManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DDFC26B23E2D4A8140C6B78F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				11C43BA6A88F5F2259A54F5E /* Constants.swift */,
+				5839E47EFE7DB2FF0AE9781B /* ImageResizer.swift */,
+				C64CDCFD774BC7F6EEB4AFC6 /* Theme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EB4B036B1168A16BFF75D294 /* SavedCreations */ = {
+			isa = PBXGroup;
+			children = (
+				0068B5CECD35738173F5DF0D /* SavedCreationsView.swift */,
+			);
+			path = SavedCreations;
+			sourceTree = "<group>";
+		};
+		ED33A56E2AB5186A605DE6A3 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A19B1B36E0C6ED2C23DFF5D4 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		EDF06F558D318A5AC0491AB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				368AE811C492DCD9827E6875 /* ChristmasAIStudio.app */,
+				DA0C6E9EA0AEA20A75C967AC /* ChristmasAIStudioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF658D453EE4F0ABDEFEEBB2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0461701F8131E33B136D3D58 /* Assets.xcassets */,
+				64DBFFF168526CF2F2706957 /* ChristmasAIStudio.storekit */,
+				326B099882FCA09088B8E7AD /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64FD464D8F1BAD67E7DE3B9A /* ChristmasAIStudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D0291CE3075E9830303C42 /* Build configuration list for PBXNativeTarget "ChristmasAIStudio" */;
+			buildPhases = (
+				D10A13A4C57FEF378149EB8E /* Sources */,
+				758FCFFEB16728EE8028C2D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChristmasAIStudio;
+			packageProductDependencies = (
+			);
+			productName = ChristmasAIStudio;
+			productReference = 368AE811C492DCD9827E6875 /* ChristmasAIStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE462E36D24880C04B6EC717 /* ChristmasAIStudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C9BFACC7121FDAC11899796 /* Build configuration list for PBXNativeTarget "ChristmasAIStudioTests" */;
+			buildPhases = (
+				EE68897DFE5AE4DDEB50864F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A816E113398FEA134E89F74B /* PBXTargetDependency */,
+			);
+			name = ChristmasAIStudioTests;
+			packageProductDependencies = (
+			);
+			productName = ChristmasAIStudioTests;
+			productReference = DA0C6E9EA0AEA20A75C967AC /* ChristmasAIStudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		446AD157CB45C921B1CA962A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					64FD464D8F1BAD67E7DE3B9A = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					CE462E36D24880C04B6EC717 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5787B9AA2F9F1D95F6F42B56 /* Build configuration list for PBXProject "ChristmasAIStudio" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 068431BAF349C75B97483BD0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EDF06F558D318A5AC0491AB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64FD464D8F1BAD67E7DE3B9A /* ChristmasAIStudio */,
+				CE462E36D24880C04B6EC717 /* ChristmasAIStudioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		758FCFFEB16728EE8028C2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965AA6812DF364B50FEE7FB8 /* Assets.xcassets in Resources */,
+				EC557B65B3CE43FFB59E714C /* ChristmasAIStudio.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10A13A4C57FEF378149EB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD202615A36C84C776BC5DE3 /* AppState.swift in Sources */,
+				53B111198E423D4FB4815A6D /* BackendAPIService.swift in Sources */,
+				30E2C995B4773342BEBDE7FF /* BeforeAfterComparisonView.swift in Sources */,
+				CF52035CD3B537015862ED9C /* BeforeAfterSlider.swift in Sources */,
+				16EC1E96C05BC57014D16936 /* ChristmasAIStudioApp.swift in Sources */,
+				F1E57C2B815D10D520361895 /* ChristmasStyle.swift in Sources */,
+				3B77232E5A8270A59D6762EC /* Constants.swift in Sources */,
+				05038B597DB6369675FAFDCC /* CreditBadgeView.swift in Sources */,
+				749BF8EA85449A2F0E8980DA /* CreditBalance.swift in Sources */,
+				31A29E9DC96E29B85D525A42 /* FestiveButton.swift in Sources */,
+				CD8DA5E96AC5D5C5B5D789E5 /* FestiveCard.swift in Sources */,
+				F56766B674EF361EBE6EA648 /* GeneratedImage.swift in Sources */,
+				455408B85E868BE5DFEF8B90 /* GenerationProgressView.swift in Sources */,
+				B2724A1F92E2A513F21890F2 /* GenerationRequest.swift in Sources */,
+				295D318B939B528F83B1A9F5 /* GenerationResultView.swift in Sources */,
+				ADB4F44D81D862B0D9AC60B1 /* GenerationViewModel.swift in Sources */,
+				89D8DDA5AC0E69205D842281 /* GreetingCardConfig.swift in Sources */,
+				68AAE75D88B11B2693121189 /* GreetingCardEditorView.swift in Sources */,
+				A158702EF18B78559863DBEB /* GreetingCardViewModel.swift in Sources */,
+				D3391EA9A366A2012E0C60AA /* HomeView.swift in Sources */,
+				B413712DF71B025B67B917C4 /* HomeViewModel.swift in Sources */,
+				52DFDA8BA8FDD747D9D06532 /* ImageGenerationService.swift in Sources */,
+				66A1C1CCA3E3EB971D5EF597 /* ImageResizer.swift in Sources */,
+				160DC942CC19077CA21153BE /* MainTabView.swift in Sources */,
+				90015DD75BCF0ED78E08BC21 /* MockImageGenerator.swift in Sources */,
+				53B64639109C1F07E4619E3C /* OnboardingView.swift in Sources */,
+				1660668E18D68A0F2C8B8B4B /* PhotoLibraryService.swift in Sources */,
+				196A505525A0F084A3D23A7A /* PhotoPickerAndPreviewView.swift in Sources */,
+				BEC8A7DC84923E8EC14C7BB8 /* SavedCreationsView.swift in Sources */,
+				49E597BABE36A62872404B0E /* SavedCreationsViewModel.swift in Sources */,
+				249111A9D4B1FFC76D51B90F /* SettingsView.swift in Sources */,
+				280CE8D261C04A1E20EA9064 /* SnowfallEffectView.swift in Sources */,
+				959D96A1A6B11D33B68EE66D /* StorageService.swift in Sources */,
+				1124546ACAAC80C3E5D4B6D9 /* StoreKitManager.swift in Sources */,
+				51541FF72EBA32E4A55C0EB4 /* StorePaywallView.swift in Sources */,
+				DBCA753702BCE31F296ADA58 /* StyleCardView.swift in Sources */,
+				3B8F8CF19D70D53AEA32085E /* StyleSelectionView.swift in Sources */,
+				4A207691B35DA1EE2F6D585D /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE68897DFE5AE4DDEB50864F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1D88C5BF5727705F2B72D8 /* ImageResizerTests.swift in Sources */,
+				49441A69830360981C8DB8A3 /* StoreKitTests.swift in Sources */,
+				5853FF6F548A7C2FAAED63D4 /* StylePromptTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A816E113398FEA134E89F74B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64FD464D8F1BAD67E7DE3B9A /* ChristmasAIStudio */;
+			targetProxy = 62DFCED05A9BB11813B71547 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		036D46F41245828F770D0F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8AABF89D5A7C421228625BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.christmasai.studio.tests;
+				PRODUCT_NAME = ChristmasAIStudioTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChristmasAIStudio.app/ChristmasAIStudio";
+			};
+			name = Release;
+		};
+		9142433E6AB27AB4436CD582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ChristmasAIStudio/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christmasai.studio;
+				PRODUCT_NAME = ChristmasAIStudio;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A43859CFE2217C08AA780597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B497293A7DC6571B8DA73DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.christmasai.studio.tests;
+				PRODUCT_NAME = ChristmasAIStudioTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChristmasAIStudio.app/ChristmasAIStudio";
+			};
+			name = Debug;
+		};
+		F30B34037A61AD529812F4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ChristmasAIStudio/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christmasai.studio;
+				PRODUCT_NAME = ChristmasAIStudio;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5787B9AA2F9F1D95F6F42B56 /* Build configuration list for PBXProject "ChristmasAIStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036D46F41245828F770D0F69 /* Debug */,
+				A43859CFE2217C08AA780597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7C9BFACC7121FDAC11899796 /* Build configuration list for PBXNativeTarget "ChristmasAIStudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B497293A7DC6571B8DA73DBA /* Debug */,
+				8AABF89D5A7C421228625BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B6D0291CE3075E9830303C42 /* Build configuration list for PBXNativeTarget "ChristmasAIStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30B34037A61AD529812F4EB /* Debug */,
+				9142433E6AB27AB4436CD582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 446AD157CB45C921B1CA962A /* Project object */;
+}
